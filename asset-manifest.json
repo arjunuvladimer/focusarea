@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/focusarea/static/css/main.b76d0afd.chunk.css",
+    "main.js": "/focusarea/static/js/main.c95292a8.chunk.js",
+    "main.js.map": "/focusarea/static/js/main.c95292a8.chunk.js.map",
+    "runtime-main.js": "/focusarea/static/js/runtime-main.203d678b.js",
+    "runtime-main.js.map": "/focusarea/static/js/runtime-main.203d678b.js.map",
+    "static/js/2.fb289c74.chunk.js": "/focusarea/static/js/2.fb289c74.chunk.js",
+    "static/js/2.fb289c74.chunk.js.map": "/focusarea/static/js/2.fb289c74.chunk.js.map",
+    "index.html": "/focusarea/index.html",
+    "precache-manifest.461cb4065619001f411dbcc22b284d59.js": "/focusarea/precache-manifest.461cb4065619001f411dbcc22b284d59.js",
+    "service-worker.js": "/focusarea/service-worker.js",
+    "static/css/main.b76d0afd.chunk.css.map": "/focusarea/static/css/main.b76d0afd.chunk.css.map",
+    "static/js/2.fb289c74.chunk.js.LICENSE.txt": "/focusarea/static/js/2.fb289c74.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.203d678b.js",
+    "static/js/2.fb289c74.chunk.js",
+    "static/css/main.b76d0afd.chunk.css",
+    "static/js/main.c95292a8.chunk.js"
+  ]
+}
