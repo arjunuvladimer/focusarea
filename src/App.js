@@ -23,7 +23,7 @@ class App extends React.Component{
           <div className="row">
   
             <div className="column">
-               <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
+               <div className={`${this.state.backgroundColor ? '':'bgColor'} card`} onClick={this.handleClick}>
                   <div className="container">
                     <h3><b>Blood Glucose</b></h3>
                   </div>
@@ -31,7 +31,7 @@ class App extends React.Component{
               </div>
   
             <div className="column">
-              <div className="card">
+              <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
                 <div className="container">
                   <h3><b>Medication</b></h3>
                 </div>
@@ -39,7 +39,7 @@ class App extends React.Component{
             </div>
 
             <div className="column">
-              <div className="card">
+              <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
                 <div className="container">
                   <h3><b>Food Tracking</b></h3>
                 </div>
@@ -47,7 +47,7 @@ class App extends React.Component{
             </div>
 
             <div className="column">
-              <div className="card">
+              <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
                 <div className="container">
                   <h3><b>Exercise</b></h3>
                 </div>
@@ -55,7 +55,7 @@ class App extends React.Component{
             </div>
 
             <div className="column">
-              <div className="card">
+              <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
                 <div className="container">
                   <h3><b>Weight Management</b></h3>
                 </div>
@@ -63,7 +63,7 @@ class App extends React.Component{
             </div>
 
             <div className="column">
-              <div className="card">
+              <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
                 <div className="container">
                   <h3><b>Blood Pressure</b></h3>
                 </div>
@@ -71,7 +71,7 @@ class App extends React.Component{
             </div>
 
             <div className="column">
-              <div className="card">
+              <div className={`${this.state.backgroundColor ? 'bgColor':''} card`} onClick={this.handleClick}>
                 <div className="container">
                   <h3><b>A1C</b></h3>
                 </div>
