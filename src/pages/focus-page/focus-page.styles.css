@@ -1,0 +1,43 @@
+.focus-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.column-dot {
+    float: left;
+    width: 33%;
+    padding: 15px 10px;
+}
+  
+.column-dot:last-child{
+    color:#424ea6
+}
+
+/* Clear floats after the columns */
+.row-dot:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.row-dot{
+    margin: 80px -5px;
+}
+  
+.dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color:#424ea6;
+}

@@ -1,0 +1,46 @@
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px 10px;
+    color:#8b949d;
+    font-size: small; 
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 5px;
+      font-size: 11px;
+    }
+}
+
+/* Card Style */
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 #8b949d;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #8b949d;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  
+  .bgColor {
+    background-color: #424ea6;
+    color: #ffffff;
+  }
+  
