@@ -9,13 +9,17 @@ body {
 .focus-page {
   display: flex;
   flex-direction: column;
-  padding: 20px 80px;
+  padding: 20px 30px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .column {
   float: left;
   width: 50%;
   padding: 10px 10px;
+  color:#8b949d;
+  font-size: small;
+  
 }
 /* Clear floats after the columns */
 .row:after {
@@ -24,15 +28,16 @@ body {
   clear: both;
 }
 .row{
-  margin: 0 -5px;
+  margin: 0 5px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   .column {
-    width: 100%;
+    width: 50%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    font-size: 11px;
   }
 }
 
@@ -40,7 +45,7 @@ body {
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #8b949d;
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   text-align: center;
@@ -49,16 +54,19 @@ body {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 #8b949d;
 }
 
 /* Add some padding inside the card container */
 .container {
   padding: 2px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 
 .bgColor {
-  background-color: blue;
+  background-color: #424ea6;
+  color: #ffffff;
 }
 
 
@@ -67,14 +75,20 @@ body {
 .column-dot {
   float: left;
   width: 33%;
-  padding: 10px 10px;
+  padding: 15px 10px;
+}
+
+.column-dot:last-child{
+  color:#424ea6
 }
 /* Clear floats after the columns */
 .row-dot:after {
   content: "";
   display: table;
   clear: both;
+  
 }
+
 .row-dot{
   margin: 80px -5px;
 }
@@ -83,7 +97,7 @@ body {
   cursor: pointer;
   height: 8px;
   width: 8px;
-  margin: 0 6px;
+  margin: 0 3px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -91,5 +105,5 @@ body {
 }
 
 .active, .dot:hover {
-  background-color:blue;
+  background-color:#424ea6;
 }
