@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/focusarea/static/css/main.f8092129.chunk.css",
-    "main.js": "/focusarea/static/js/main.c30fa73d.chunk.js",
-    "main.js.map": "/focusarea/static/js/main.c30fa73d.chunk.js.map",
+    "main.css": "/focusarea/static/css/main.5b0e160b.chunk.css",
+    "main.js": "/focusarea/static/js/main.d8b03897.chunk.js",
+    "main.js.map": "/focusarea/static/js/main.d8b03897.chunk.js.map",
     "runtime-main.js": "/focusarea/static/js/runtime-main.6b659177.js",
     "runtime-main.js.map": "/focusarea/static/js/runtime-main.6b659177.js.map",
     "static/js/2.2207a49a.chunk.js": "/focusarea/static/js/2.2207a49a.chunk.js",
     "static/js/2.2207a49a.chunk.js.map": "/focusarea/static/js/2.2207a49a.chunk.js.map",
     "index.html": "/focusarea/index.html",
-    "precache-manifest.491d174dcda6bfd7e958d8f5ff7110f5.js": "/focusarea/precache-manifest.491d174dcda6bfd7e958d8f5ff7110f5.js",
+    "precache-manifest.1401ee724a6eb6e32988b32daa2df89d.js": "/focusarea/precache-manifest.1401ee724a6eb6e32988b32daa2df89d.js",
     "service-worker.js": "/focusarea/service-worker.js",
-    "static/css/main.f8092129.chunk.css.map": "/focusarea/static/css/main.f8092129.chunk.css.map",
+    "static/css/main.5b0e160b.chunk.css.map": "/focusarea/static/css/main.5b0e160b.chunk.css.map",
     "static/js/2.2207a49a.chunk.js.LICENSE.txt": "/focusarea/static/js/2.2207a49a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b659177.js",
     "static/js/2.2207a49a.chunk.js",
-    "static/css/main.f8092129.chunk.css",
-    "static/js/main.c30fa73d.chunk.js"
+    "static/css/main.5b0e160b.chunk.css",
+    "static/js/main.d8b03897.chunk.js"
   ]
 }
